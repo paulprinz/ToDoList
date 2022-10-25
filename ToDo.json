@@ -1,0 +1,21 @@
+{
+    "name": "ToDo",
+    "list": [
+        {
+            "category": {
+                "name": "Urgent",
+                "color": "RED"
+            },
+            "name": "shopping",
+            "achieved": false
+        },
+        {
+            "category": {
+                "name": "Urgent",
+                "color": "RED"
+            },
+            "name": "shopping",
+            "achieved": false
+        }
+    ]
+}
