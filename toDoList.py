@@ -19,10 +19,6 @@ class List:
         elif priority == 'trivial':
             self.list[index].category = Trivial()
 
-
-
-
-
     def add(self, newToDo):
         self.list.append(newToDo)
 
@@ -41,6 +37,9 @@ class List:
             if el.achieved:
                 achieved = 'achieved'
             print(el.category.get_color()+str(i),el.name,achieved,Style.RESET_ALL)
+
+    def get_list(self):
+        return self.list
 
 class JsonList(List):
     def __init__(self, name):
@@ -100,6 +99,7 @@ class JsonList(List):
 
 class ToDo:
     def __init__(self, name, category):
+        assert len(name) >= 2
         self.name = name
         self.achieved = False
         self.category = category
