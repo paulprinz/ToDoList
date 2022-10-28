@@ -3,18 +3,34 @@
     "list": [
         {
             "category": {
-                "name": "Urgent",
-                "color": "RED"
+                "name": "Intermediate",
+                "color": "BLUE"
             },
-            "name": "shopping",
+            "name": "hello",
             "achieved": false
         },
         {
             "category": {
-                "name": "Urgent",
-                "color": "RED"
+                "name": "Intermediate",
+                "color": "BLUE"
             },
-            "name": "shopping",
+            "name": "Tea",
+            "achieved": false
+        },
+        {
+            "category": {
+                "name": "Intermediate",
+                "color": "BLUE"
+            },
+            "name": "Neu",
+            "achieved": false
+        },
+        {
+            "category": {
+                "name": "Intermediate",
+                "color": "BLUE"
+            },
+            "name": "Walking my dogs",
             "achieved": false
         }
     ]
